@@ -8,7 +8,13 @@
 		<stjs.version>3.3.2</stjs.version>
 		<stjs.plugin.version>3.3.2</stjs.plugin.version>
 	</properties>
-	<build>
+    <repositories>
+        <repository>
+            <id>vg-corporate-repo</id>
+            <url>http://kote.videogorillas.com/m2repo/</url>
+        </repository>
+    </repositories>
+    <build>
 		<extensions>
 			<extension>
 				<groupId>org.apache.maven.wagon</groupId>
