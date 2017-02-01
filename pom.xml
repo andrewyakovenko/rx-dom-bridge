@@ -5,10 +5,18 @@
 	<artifactId>rxjs-dom-bridge</artifactId>
 	<version>0.0.1</version>
 	<properties>
-		<stjs.version>3.3.0</stjs.version>
-		<stjs.plugin.version>3.3.0</stjs.plugin.version>
+		<stjs.version>3.3.2</stjs.version>
+		<stjs.plugin.version>3.3.2</stjs.plugin.version>
 	</properties>
 	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ssh-external</artifactId>
+				<version>1.0-beta-6</version>
+			</extension>
+		</extensions>
+
 		<plugins>
 			<plugin>
 				<groupId>org.st-js</groupId>
