@@ -115,7 +115,7 @@
 		<dependency>
 			<groupId>com.vg</groupId>
 			<artifactId>rxjs-bridge</artifactId>
-			<version>0.0.9</version>
+			<version>4.1.0-21</version>
 		</dependency>
 	</dependencies>
 </project>
